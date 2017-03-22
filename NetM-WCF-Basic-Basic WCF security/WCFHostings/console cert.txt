@@ -1,0 +1,3 @@
+I take this certificate  form IIS manager console (testcert):
+
+99 76 6a c4 16 fc 75 55 93 e8 7b 1a f8 64 62 09 cc f7 7a 7d	

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="de2d7819-f8b7-4d5a-b916-852f7da36a15" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Contracts/SubscribeService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="5e3c4748-d682-4a0a-8bb3-30b034679805" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?wsdl=wsdl0" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="e66ad54d-dac8-44c0-a385-0a814219831a" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="e1299656-99c3-453e-addf-a468ed1d4fcb" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="29f9eb75-bf7e-417f-8f3e-95ea007a6eab" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?xsd=xsd0" />
+    <MetadataFile FileName="SubscribeService.wsdl" MetadataType="Wsdl" ID="0c970bfa-e8e2-4e31-a665-33d4674c4650" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="70d089be-7868-48e9-865c-b346b1eb769b" SourceId="1" SourceUrl="http://localhost:8733/Contracts/SubscribeService/?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

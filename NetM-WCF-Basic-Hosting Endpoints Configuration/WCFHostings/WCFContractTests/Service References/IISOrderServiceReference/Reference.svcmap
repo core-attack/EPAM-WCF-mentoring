@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0bbcfe14-6c51-405d-9c08-86c141674caa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52685/order.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="order.xsd" MetadataType="Schema" ID="210be103-6f4b-409e-9eee-7130c118cd49" SourceId="1" SourceUrl="http://localhost:52685/order.svc?xsd=xsd1" />
+    <MetadataFile FileName="order.disco" MetadataType="Disco" ID="2aa24c63-f701-481a-bedd-fad807e8c933" SourceId="1" SourceUrl="http://localhost:52685/order.svc?disco" />
+    <MetadataFile FileName="order.wsdl" MetadataType="Wsdl" ID="3e7f843e-9a9b-43ad-aa41-557f8cf17d00" SourceId="1" SourceUrl="http://localhost:52685/order.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="OrderService.wsdl" MetadataType="Wsdl" ID="cbd57b99-d823-4b4f-89f7-6034b819f97e" SourceId="1" SourceUrl="http://localhost:52685/order.svc?wsdl" />
+    <MetadataFile FileName="order1.xsd" MetadataType="Schema" ID="ce9ffc23-6ff1-4921-a2d6-a77f9cef7f2e" SourceId="1" SourceUrl="http://localhost:52685/order.svc?xsd=xsd2" />
+    <MetadataFile FileName="order2.xsd" MetadataType="Schema" ID="8293565b-a6e7-460a-95ac-38170b5c9a66" SourceId="1" SourceUrl="http://localhost:52685/order.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
